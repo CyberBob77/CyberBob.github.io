@@ -17,32 +17,25 @@ text-align: center;
 margin: 0%;
 padding: 0%;
 }
-.contactbutton{
-    border-radius: 14cm;
-    border-color: darkgrey;
-    background-color: black;
-    text-align: center;
-    color: white;
-    list-style-type:none;
-    font-size: 1.5cm;   
-    margin: 98px 8em;
-    padding:0%;
+.container{
+    margin: 1% 35%;
+    padding: 5% ;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.projectbutton{
-    border-radius: 14cm;
-    border-color: darkgrey;
-    background-color: black;
-    text-align: center;
-    color: white;
-    list-style-type:none;
-    font-size: 1.5cm;   
-    margin: -7em;
-    margin-right: 35px;
-    padding:0%;
-
-}
 .links{
     color: white;
     text-decoration: none;
+}
+
+.button{
+border-radius: 14.5cm;
+border-color: darkgrey;
+background-color: black;
+text-align: center;
+color: white;
+list-style-type:none;
+font-size: 1.1cm;   
+padding: 0.3%;
 }
