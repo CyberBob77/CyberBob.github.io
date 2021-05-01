@@ -1,50 +1,46 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
+body{
+    background-color: black;  
 }
-li {
+.center{
+display: block;
+margin: 0%;
+padding: 0%;
+margin-left: auto;
+margin-right: auto;
+width: 25%;
 
-    display: inline;
-    float: left;
-    
-}
-
-a {
-   
-    display: block;
-    padding: 14px;
-    color: white;
-    text-decoration: none;
-    text-align: center;  
-  
-}
-li a:hover:not(.active) {
-  background-color: rgba(83, 82, 82, 0.609);
-  }
-.active{
-   background-color:rgb(102, 101, 101);
-}
-.photo{
-   margin:4px;
-   width: 100%;
-   height: 70%;
 
 }
-.bhbd{
-   color: grey;
+p{
+color: white;
+font-family: "open-sans",sans-serif;
+font-size: 120px;
 text-align: center;
+margin: 0%;
+padding: 0%;
 }
-.about{
-   color: black ;
-   font-style: italic;
-   font-weight: bold;
-   text-align: center;
-
-}
-.email{
+.contactbutton{
+    border-radius: 14cm;
+    border-color: darkgrey;
+    background-color: black;
     text-align: center;
-    
+    color: white;
+    list-style-type:none;
+    font-size: 1.5cm;   
+    margin: 98px 8em;
+    padding:0%;
+}
+
+.projectbutton{
+    border-radius: 14cm;
+    border-color: darkgrey;
+    background-color: black;
+    text-align: center;
+    color: white;
+    list-style-type:none;
+    font-size: 1.5cm;   
+    margin: -7em;
+    margin-right: 35px;
+    padding:0%;
+
 }
